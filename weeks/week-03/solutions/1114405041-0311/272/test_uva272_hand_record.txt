@@ -1,0 +1,11 @@
+test_easy_and_hand_match (test_uva272.TestUVA272.test_easy_and_hand_match)
+確認 easy 與手打版本一致。 ... ok
+test_multi_line (test_uva272.TestUVA272.test_multi_line)
+跨行也必須維持全域交替規則。 ... ok
+test_sample_sentence (test_uva272.TestUVA272.test_sample_sentence)
+檢查題目經典句子的轉換結果。 ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+OK

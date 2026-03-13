@@ -1,0 +1,11 @@
+test_easy_and_hand_match (test_uva118.TestUVA118.test_easy_and_hand_match)
+確認 easy 與手打版本一致。 ... ok
+test_official_sample (test_uva118.TestUVA118.test_official_sample)
+經典範例，含 LOST 與 scent 行為。 ... ok
+test_scent_prevents_repeat_loss (test_uva118.TestUVA118.test_scent_prevents_repeat_loss)
+第二台機器人在同座標嘗試掉落時應忽略。 ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.005s
+
+OK

@@ -1,0 +1,13 @@
+test_easy_and_standard_output_match (test_uva100.TestUVA100.test_easy_and_standard_output_match)
+標準版與 easy 版必須產生一致結果。 ... ok
+test_reverse_input_keeps_original_order (test_uva100.TestUVA100.test_reverse_input_keeps_original_order)
+輸入順序需保留原樣，但計算區間要能正確處理反向。 ... ok
+test_sample_cases (test_uva100.TestUVA100.test_sample_cases)
+驗證題目提供的標準範例。 ... ok
+test_single_value (test_uva100.TestUVA100.test_single_value)
+區間只有一個數字時，答案即該數字的 cycle-length。 ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

@@ -1,0 +1,11 @@
+test_easy_and_hand_match (test_uva490.TestUVA490.test_easy_and_hand_match)
+確認 easy 與手打版本一致。 ... ok
+test_hello_world (test_uva490.TestUVA490.test_hello_world)
+最經典的兩行旋轉案例。 ... ok
+test_ragged_lines (test_uva490.TestUVA490.test_ragged_lines)
+不等長輸入需正確補空白。 ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.003s
+
+OK

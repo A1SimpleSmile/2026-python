@@ -1,0 +1,11 @@
+test_basic_cases (test_uva299.TestUVA299.test_basic_cases)
+典型測資：已排序、部分顛倒、完全反序。 ... ok
+test_easy_and_hand_match (test_uva299.TestUVA299.test_easy_and_hand_match)
+確認 AI 簡單版與手打版結果一致。 ... ok
+test_single_and_zero_length (test_uva299.TestUVA299.test_single_and_zero_length)
+邊界測試：L=1 與 L=0。 ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.006s
+
+OK
