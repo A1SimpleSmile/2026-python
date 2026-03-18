@@ -1,0 +1,36 @@
+﻿python3.14 : test_easy_matches_standard (test_uva10038.TestUVA10038.test_easy_m
+atches_standard)
+位於 線路:3 字元:15
++ ...   $output = python3.14 -m unittest discover -s "$base\$p" -p "test_uv ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_easy_match...tches_standard) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+easy 版與標準版輸出需完全一致。 ... ok
+test_hand_matches_standard (test_uva10038.TestUVA10038.test_hand_matches_standa
+rd)
+hand（手打）版輸出需與標準版完全一致。 ... ok
+test_jolly_example (test_uva10038.TestUVA10038.test_jolly_example)
+題目範例：1 4 2 3 差的絕對值為 3,2,1 → Jolly。 ... ok
+test_length_two_jolly (test_uva10038.TestUVA10038.test_length_two_jolly)
+長度為 2：差的絕對值需恰好為 1。 ... ok
+test_length_two_not_jolly (test_uva10038.TestUVA10038.test_length_two_not_jolly
+)
+長度為 2：差的絕對值不為 1 → Not jolly。 ... ok
+test_multiple_lines (test_uva10038.TestUVA10038.test_multiple_lines)
+多行輸入，每行獨立判斷。 ... ok
+test_negative_numbers (test_uva10038.TestUVA10038.test_negative_numbers)
+含負數的序列只要差值集合正確就是 Jolly。 ... ok
+test_not_jolly_example (test_uva10038.TestUVA10038.test_not_jolly_example)
+題目範例：1 4 2 -1 6 差的絕對值為 3,2,3,7 → Not jolly。 ... ok
+test_repeated_differences (test_uva10038.TestUVA10038.test_repeated_differences
+)
+相鄰差重複（集合大小 < n-1）→ Not jolly。 ... ok
+test_single_element (test_uva10038.TestUVA10038.test_single_element)
+長度為 1 的序列沒有相鄰差，題目定義為 Jolly。 ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

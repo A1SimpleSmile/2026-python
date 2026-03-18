@@ -1,0 +1,31 @@
+﻿python3.14 : test_ambiguous_returns_zero (test_uva948.TestUVA948.test_ambiguous
+_returns_zero)
+位於 線路:3 字元:15
++ ...   $output = python3.14 -m unittest discover -s "$base\$p" -p "test_uv ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_ambiguous_...s_returns_zero) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+只有一次不平衡秤重，1 或 2 都有可能是假幣 → 輸出 0。 ... ok
+test_easy_matches_standard (test_uva948.TestUVA948.test_easy_matches_standard)
+easy 版與標準版輸出需完全一致。 ... ok
+test_equal_weighing_excludes_participants (test_uva948.TestUVA948.test_equal_we
+ighing_excludes_participants)
+天平平衡代表 1 和 2 都是真幣，未參與的 3 號是假幣。 ... ok
+test_hand_matches_standard (test_uva948.TestUVA948.test_hand_matches_standard)
+hand（手打）版輸出需與標準版完全一致。 ... ok
+test_heavier_coin_identified (test_uva948.TestUVA948.test_heavier_coin_identifi
+ed)
+兩次秤重都顯示 1 號在重側 → 1 是較重假幣。 ... ok
+test_lighter_coin_identified (test_uva948.TestUVA948.test_lighter_coin_identifi
+ed)
+兩次秤重都顯示 1 號在輕側 → 1 是較輕假幣。 ... ok
+test_multiple_cases_separated_by_blank_line (test_uva948.TestUVA948.test_multip
+le_cases_separated_by_blank_line)
+多組測資各自輸出正確結果，且以空行分隔。 ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

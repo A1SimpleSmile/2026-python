@@ -1,0 +1,34 @@
+﻿python3.14 : test_case_insensitive (test_uva10008.TestUVA10008.test_case_insens
+itive)
+位於 線路:3 字元:15
++ ...   $output = python3.14 -m unittest discover -s "$base\$p" -p "test_uv ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_case_insen...se_insensitive) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+大寫與小寫視為同一字母。 ... ok
+test_easy_matches_standard (test_uva10008.TestUVA10008.test_easy_matches_standa
+rd)
+easy 版輸出需與標準版完全一致。 ... ok
+test_hand_matches_standard (test_uva10008.TestUVA10008.test_hand_matches_standa
+rd)
+hand（手打）版輸出需與標準版完全一致。 ... ok
+test_only_specified_lines_counted (test_uva10008.TestUVA10008.test_only_specifi
+ed_lines_counted)
+只統計前 n 行，多餘的行不計。 ... ok
+test_output_format (test_uva10008.TestUVA10008.test_output_format)
+每行輸出格式應為「大寫字母 空格 正整數」。 ... ok
+test_same_count_alphabetical (test_uva10008.TestUVA10008.test_same_count_alphab
+etical)
+次數相同時按字母 A→Z 順序排列。 ... ok
+test_skip_non_alpha (test_uva10008.TestUVA10008.test_skip_non_alpha)
+數字、符號、空白不計入。 ... ok
+test_sorted_descending_by_count (test_uva10008.TestUVA10008.test_sorted_descend
+ing_by_count)
+輸出必須依出現次數由大到小排列。 ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

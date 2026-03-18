@@ -1,0 +1,32 @@
+﻿python3.14 : test_basic_difference (test_uva10019.TestUVA10019.test_basic_diffe
+rence)
+位於 線路:3 字元:15
++ ...   $output = python3.14 -m unittest discover -s "$base\$p" -p "test_uv ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_basic_diff...sic_difference) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+基本差值計算：小值在前。 ... ok
+test_easy_matches_standard (test_uva10019.TestUVA10019.test_easy_matches_standa
+rd)
+easy 版與標準版輸出需完全一致。 ... ok
+test_equal_numbers (test_uva10019.TestUVA10019.test_equal_numbers)
+兩數相等時差為 0。 ... ok
+test_hand_matches_standard (test_uva10019.TestUVA10019.test_hand_matches_standa
+rd)
+hand（手打）版輸出需與標準版完全一致。 ... ok
+test_large_numbers (test_uva10019.TestUVA10019.test_large_numbers)
+題目說數字不超過 2^63，Python 可直接處理巨大整數。 ... ok
+test_multiple_lines (test_uva10019.TestUVA10019.test_multiple_lines)
+處理多行輸入，每行各自獨立計算。 ... ok
+test_reversed_order (test_uva10019.TestUVA10019.test_reversed_order)
+大值在前也要輸出正整數（取絕對值）。 ... ok
+test_very_large_difference (test_uva10019.TestUVA10019.test_very_large_differen
+ce)
+超大差值（接近 2^63 量級）。 ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
