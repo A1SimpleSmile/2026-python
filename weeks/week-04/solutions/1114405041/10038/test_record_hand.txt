@@ -1,0 +1,22 @@
+﻿UVA 10038 - Jolly Jumpers [hand version]
+測試日期：2026-03-18 14:19:58
+
+【輸入】
+4 1 4 2 3
+5 1 4 2 -1 6
+1 42
+2 3 4
+
+【輸出】
+Jolly
+Not jolly
+Jolly
+Jolly
+
+【預期】
+Jolly
+Not jolly
+Jolly
+Jolly
+
+【結果】PASS

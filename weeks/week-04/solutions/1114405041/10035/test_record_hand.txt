@@ -1,0 +1,20 @@
+﻿UVA 10035 - Primary Arithmetic [hand version]
+測試日期：2026-03-18 14:19:58
+
+【輸入】
+123 456
+555 555
+123 594
+0 0
+
+【輸出】
+No carry operation.
+3 carry operations.
+1 carry operation.
+
+【預期】
+No carry operation.
+3 carry operations.
+1 carry operation.
+
+【結果】PASS

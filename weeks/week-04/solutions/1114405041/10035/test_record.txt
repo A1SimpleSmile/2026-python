@@ -1,0 +1,30 @@
+﻿python3.14 : test_easy_matches_standard (test_uva10035.TestUVA10035.test_easy_m
+atches_standard)
+位於 線路:3 字元:15
++ ...   $output = python3.14 -m unittest discover -s "$base\$p" -p "test_uv ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_easy_match...tches_standard) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+easy 版與標準版輸出需完全一致。 ... ok
+test_hand_matches_standard (test_uva10035.TestUVA10035.test_hand_matches_standa
+rd)
+hand（手打）版輸出需與標準版完全一致。 ... ok
+test_multiple_carries (test_uva10035.TestUVA10035.test_multiple_carries)
+多次進位，輸出複數 'carry operations'。 ... ok
+test_no_carry (test_uva10035.TestUVA10035.test_no_carry)
+各位相加均不超過 9，輸出 'No carry operation.' ... ok
+test_one_carry (test_uva10035.TestUVA10035.test_one_carry)
+恰好一次進位，輸出 '1 carry operation.'（operation 無複數 s）。 ... ok
+test_sample_input (test_uva10035.TestUVA10035.test_sample_input)
+題目的標準範例對應輸出。 ... ok
+test_stop_at_double_zero (test_uva10035.TestUVA10035.test_stop_at_double_zero)
+遇到 '0 0' 後停止，之後的行不應被處理。 ... ok
+test_zero_operand (test_uva10035.TestUVA10035.test_zero_operand)
+其中一個運算元為 0，不應有進位。 ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
